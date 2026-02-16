@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Technical Training Institute - Rahim Yar Khan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta name="description" content="Official website of Government Technical Training Institute Rahim Yar Khan.">
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar" style="background-color: #05263a; color: white; padding: 5px 0; font-size: 0.9rem;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="contact-info">
+                <i class="fas fa-phone-alt"></i> +92 68 1234567 | <i class="fas fa-envelope"></i> info@gttiryk.edu.pk
+            </div>
+            <div class="social-links">
+                <a href="#" style="color: white; margin-left: 10px;"><i class="fab fa-facebook"></i></a>
+                <a href="#" style="color: white; margin-left: 10px;"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar"
+        style="background-color: var(--primary-blue); padding: 1rem 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <div class="logo"
+                style="display: flex; align-items: center; color: white; font-size: 1.5rem; font-weight: bold;">
+                <i class="fas fa-graduation-cap"
+                    style="font-size: 2rem; margin-right: 10px; color: var(--notice-orange);"></i>
+                GTTI RYK
+            </div>
+            <div class="menu-toggle" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks" style="display: flex; gap: 20px;">
+                <li><a href="#home" style="color: white; font-weight: 500;">Home</a></li>
+                <li><a href="#about" style="color: white; font-weight: 500;">Director's Message</a></li>
+                <li><a href="#trades" style="color: white; font-weight: 500;">Trades</a></li>
+                <li><a href="#admissions" style="color: white; font-weight: 500;">Admissions</a></li>
+                <li><a href="#news" style="color: white; font-weight: 500;">News</a></li>
+                <li><a href="#contact" style="color: white; font-weight: 500;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero"
+        style="background: linear-gradient(rgba(10, 61, 98, 0.8), rgba(10, 61, 98, 0.8)), url('https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover; padding: 150px 0; color: white; text-align: center;">
+        <div class="container fade-in">
+            <h1 style="font-size: 3.5rem; margin-bottom: 20px;">Empowering Youth with Skills</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 30px; max-width: 800px; margin-left: auto; margin-right: auto;">
+                Government Technical Training Institute Rahim Yar Khan provides world-class vocational training to
+                secure a bright future.</p>
+            <a href="#" class="btn btn-success apply-btn" style="font-size: 1.1rem; padding: 12px 30px;">Apply for
+                Admission</a>
+        </div>
+    </header>
+
+    <!-- Director's Message -->
+    <section id="about" class="section padding-y" style="padding: 80px 0;">
+        <div class="container">
+            <div class="section-title">Director's Message</div>
+            <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 40px;">
+                <div class="director-img fade-in" style="flex: 1; min-width: 300px; max-width: 400px;">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Director"
+                        style="width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                </div>
+                <div class="message-content fade-in" style="flex: 1; min-width: 300px;">
+                    <p style="font-size: 1.1rem; margin-bottom: 20px; color: var(--text-gray);">
+                        "Welcome to GTTI Rahim Yar Khan. Our mission is to equip the youth with employable skills that
+                        meet global standards. We are committed to excellence in technical education and believe in the
+                        transformative power of hands-on training."
+                    </p>
+                    <h3 style="color: var(--primary-blue);">Engr. Muhammad Ali</h3>
+                    <p style="color: var(--notice-orange); font-weight: 600;">Director, GTTI RYK</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Trades -->
+    <section id="trades" style="background-color: white; padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">Available Trades</h2>
+            <div class="trades-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+                <!-- Trade 1 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Computer Applications"
+                    data-details="This course covers essential IT skills including MS Office (Word, Excel, PowerPoint), Adobe Photoshop for graphic design, and basic web development (HTML/CSS). Perfect for administrative and creative careers."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-laptop-code"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Computer Applications</h3>
+                    <p>Learn MS Office, Graphic Design, and Web Basics.</p>
+                </div>
+                <!-- Trade 2 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Electrician"
+                    data-details="Get hands-on training in domestic and industrial wiring, electrical circuits, motors, and panel installations. Learn safety protocols and troubleshooting for complex electrical systems."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-bolt"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Electrician</h3>
+                    <p>Domestic and Industrial wiring training.</p>
+                </div>
+                <!-- Trade 3 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Machinist"
+                    data-details="Learn to operate precision machinery including Conventional Lathes, Milling machines, and modern CNC equipment. Training includes blueprint reading and metal fabrication techniques."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-cogs"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Machinist</h3>
+                    <p>Operation of Lathe, Milling, and CNC machines.</p>
+                </div>
+                <!-- Trade 4 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Auto Mechanic"
+                    data-details="Become an expert in automobile repair and maintenance. Covers engine mechanics, fuel systems, brakes, suspension, and vehicle diagnostics for modern EFI engines."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-car" style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Auto Mechanic</h3>
+                    <p>Repair and maintenance of modern vehicles.</p>
+                </div>
+                <!-- Trade 5 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="HVAC Technician"
+                    data-details="Specialize in Heating, Ventilation, and Air Conditioning. Learn to install, repair, and maintain domestic and commercial AC units and central cooling systems."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-snowflake"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">HVAC Technician</h3>
+                    <p>Heating, ventilation, and air conditioning maintenance.</p>
+                </div>
+                <!-- Trade 6 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Welding"
+                    data-details="Master various welding techniques including Arc, Gas, and TIG/MIG welding. Essential for industrial fabrication, construction, and repair sectors."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-fire-alt"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Welding</h3>
+                    <p>Arc and gas welding for industrial applications.</p>
+                </div>
+                <!-- Trade 7 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Plumbing"
+                    data-details="Learn modern plumbing systems for residential and commercial buildings. Includes sanitary fitting, water supply networks, and drainage systems installation."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-faucet"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Plumbing</h3>
+                    <p>Sanitary fitting and piping installation techniques.</p>
+                </div>
+                <!-- Trade 8 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Civil Surveyor"
+                    data-details="Learn to measure and map land with precision using Auto-Level, Theodolite, and Total Station. Crucial for urban planning and construction projects."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-map" style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Civil Surveyor</h3>
+                    <p>Land surveying and measurement using modern tools.</p>
+                </div>
+                <!-- Trade 9 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Quantity Surveyor"
+                    data-details="Learn to prepare cost estimates, bills of quantities, and material take-offs for construction projects. Essential for resource management in building industries."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-calculator"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Quantity Surveyor</h3>
+                    <p>Cost estimation and material calculation for construction.</p>
+                </div>
+                <!-- Trade 10 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Dress Making"
+                    data-details="Learn professional pattern making, cutting, and stitching for various garments. Covers modern fashion trends and tailored outfit design."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-cut" style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Dress Making</h3>
+                    <p>Advanced tailoring and fashion design techniques.</p>
+                </div>
+                <!-- Trade 11 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Beautician"
+                    data-details="Professional training in basic and advanced skincare, bridal makeup, hair styling, and salon management. Ideal for aspiring beauty industry professionals."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-magic"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Beautician</h3>
+                    <p>Professional skin care, makeup, and hair styling.</p>
+                </div>
+                <!-- Trade 12 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Culinary Arts"
+                    data-details="Master the art of cooking diverse cuisines, baking, and professional kitchen management. Focuses on food safety and high-standard hospitality services."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-utensils"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Culinary Arts</h3>
+                    <p>Cooking and hospitality management courses.</p>
+                </div>
+                <!-- Trade 13 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Mobile Repairing"
+                    data-details="Learn hardware and software troubleshooting for all major smartphone brands. Includes screen replacement, circuit repair, and software flashing."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-mobile-alt"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Mobile Repairing</h3>
+                    <p>Hardware and software troubleshooting for smartphones.</p>
+                </div>
+                <!-- Trade 14 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Solar Technician"
+                    data-details="Specialized training in Solar PV system design, installation, and maintenance. Learn about inverters, battery banks, and optimizing solar energy output."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-solar-panel"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Solar Technician</h3>
+                    <p>Installation and maintenance of solar energy systems.</p>
+                </div>
+                <!-- Trade 15 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Graphic Design"
+                    data-details="Master visual communication using Adobe Creative Suite. Learn logo design, branding, illustration, and digital marketing materials creation."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-paint-brush"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Graphic Design</h3>
+                    <p>Professional design using Photoshop and Illustrator.</p>
+                </div>
+                <!-- Trade 16 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Web Development"
+                    data-details="Build modern, responsive websites using HTML5, CSS3, and JavaScript. Learn frontend design principles and user experience (UX) basics."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-code"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Web Development</h3>
+                    <p>Modern frontend development with HTML, CSS, and JS.</p>
+                </div>
+                <!-- Trade 17 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="AutoCAD"
+                    data-details="Master computer-aided design for 2D drafting and 3D modeling. Essential for civil, mechanical, and architectural engineering professions."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-pencil-ruler"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">AutoCAD</h3>
+                    <p>Computer-aided design for architecture and engineering.</p>
+                </div>
+                <!-- Trade 18 -->
+                <div class="trade-card fade-in trade-card-btn" data-trade="Refrigeration"
+                    data-details="Become an expert in domestic and commercial refrigeration systems. Learn gas charging, compressor repair, and circuit troubleshooting."
+                    style="background: var(--bg-light); padding: 20px; border-radius: 8px; text-align: center; transition: 0.3s; border-bottom: 4px solid var(--primary-blue);">
+                    <i class="fas fa-plug"
+                        style="font-size: 3rem; color: var(--primary-blue); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 10px;">Refrigeration</h3>
+                    <p>Repair of domestic and commercial refrigerators.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section id="admissions"
+        style="background-color: var(--primary-blue); color: white; padding: 80px 0; text-align: center;">
+        <div class="container fade-in">
+            <h2 class="section-title" style="color: white; border-color: white;">Admission Process</h2>
+            <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-top: 40px;">
+                <div class="step" style="max-width: 250px;">
+                    <div
+                        style="width: 60px; height: 60px; background: var(--action-green); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-weight: bold; font-size: 1.5rem;">
+                        1</div>
+                    <h4>Apply Online</h4>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Fill out the form on our official portal.</p>
+                </div>
+                <div class="step" style="max-width: 250px;">
+                    <div
+                        style="width: 60px; height: 60px; background: var(--action-green); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-weight: bold; font-size: 1.5rem;">
+                        2</div>
+                    <h4>Submit Documents</h4>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Visit GTTI with original documents.</p>
+                </div>
+                <div class="step" style="max-width: 250px;">
+                    <div
+                        style="width: 60px; height: 60px; background: var(--action-green); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-weight: bold; font-size: 1.5rem;">
+                        3</div>
+                    <h4>Interview</h4>
+                    <p style="font-size: 0.9rem; margin-top: 10px;">Appear for a short interview and test.</p>
+                </div>
+            </div>
+            <div style="margin-top: 50px;">
+                <a href="#" class="btn btn-success apply-btn" style="font-size: 1.2rem; padding: 15px 40px;">Open
+                    Admission
+                    Portal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section id="news" style="padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title">Latest Notices & News</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+                <div class="news-item fade-in"
+                    style="background: white; border-left: 5px solid var(--notice-orange); padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                    <small style="color: var(--text-gray);">20 Dec 2025</small>
+                    <h4 style="margin: 10px 0; color: var(--primary-blue);">Admissions Open for Session 2026</h4>
+                    <p>Applications are now invited for the upcoming session in all trades...</p>
+                    <a href="#" class="read-more-news" data-title="Admissions Open for Session 2026"
+                        data-content="Government Technical Training Institute (GTTI) Rahim Yar Khan is pleased to announce that admissions for the Session 2026 are now open. We are offering specialized 6-month and 1-year diploma courses in 18 different technical trades. Prospective students are encouraged to apply online through our registration portal or visit the campus for manual registration. The last date to apply is 15th January 2026."
+                        style="color: var(--action-green); font-weight: 600; margin-top: 10px; display: inline-block;">Read
+                        More &rarr;</a>
+                </div>
+                <div class="news-item fade-in"
+                    style="background: white; border-left: 5px solid var(--notice-orange); padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                    <small style="color: var(--text-gray);">15 Dec 2025</small>
+                    <h4 style="margin: 10px 0; color: var(--primary-blue);">Annual Sports Week Announced</h4>
+                    <p>The annual sports gala will be held from 25th Dec to 30th Dec...</p>
+                    <a href="#" class="read-more-news" data-title="Annual Sports Week Announced"
+                        data-content="Get ready for the excitement! GTTI RYK's Annual Sports Week is scheduled to take place from 25th to 30th December. Events will include Cricket, Football, Volleyball, Badminton, and Athletics. All students are encouraged to participate and showcase their sportsmanship. Team registration is open at the student affairs office until 22nd December."
+                        style="color: var(--action-green); font-weight: 600; margin-top: 10px; display: inline-block;">Read
+                        More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background-color: #05263a; color: white; padding: 60px 0;">
+        <div class="container">
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h3>Contact Us</h3>
+                    <ul style="margin-top: 20px;">
+                        <li style="margin-bottom: 10px;"><i class="fas fa-map-marker-alt"
+                                style="width: 20px; color: var(--notice-orange);"></i> Thali Road, Rahim Yar Khan
+                        </li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-phone"
+                                style="width: 20px; color: var(--notice-orange);"></i> +92 68 1234567</li>
+                        <li style="margin-bottom: 10px;"><i class="fas fa-envelope"
+                                style="width: 20px; color: var(--notice-orange);"></i> info@gttiryk.edu.pk</li>
+                    </ul>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <h3>Quick Links</h3>
+                    <ul style="margin-top: 20px;">
+                        <li style="margin-bottom: 5px;"><a href="#" style="color: #ccc;">TEVTA Punjab</a></li>
+                        <li style="margin-bottom: 5px;"><a href="#" style="color: #ccc;">PBTE Lahore</a></li>
+                        <li style="margin-bottom: 5px;"><a href="#" style="color: #ccc;">NAVTTC</a></li>
+                    </ul>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <h3>Locate Us</h3>
+                    <div
+                        style="width: 100%; height: 150px; background: #ddd; margin-top: 20px; border-radius: 5px; display: flex; align-items: center; justify-content: center; color: black;">
+                        Map Placeholder
+                    </div>
+                </div>
+            </div>
+            <div
+                style="text-align: center; margin-top: 50px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 0.9rem; color: #aaa;">
+                &copy; 2025 Government Technical Training Institute Rahim Yar Khan. All Rights Reserved.
+            </div>
+        </div>
+    </section>
+
+    <!-- Trade Details Modal -->
+    <div id="tradeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeTrade">&times;</span>
+            <div id="tradeInfo">
+                <h2 id="modalTradeTitle" style="color: var(--primary-blue); margin-bottom: 15px;">Trade Name</h2>
+                <p id="modalTradeDetails"
+                    style="color: var(--text-gray); font-size: 1.1rem; line-height: 1.8; margin-bottom: 25px;">
+                    Detailed information about the trade will appear here.
+                </p>
+                <div style="background: var(--bg-light); padding: 15px; border-radius: 8px; margin-bottom: 25px;">
+                    <h4 style="color: var(--primary-blue); margin-bottom: 10px;"><i class="fas fa-info-circle"></i> Key
+                        Highlights</h4>
+                    <ul style="padding-left: 20px; list-style: disc; color: var(--text-gray);">
+                        <li>Professional Practical Training</li>
+                        <li>Industry-Standard Equipment</li>
+                        <li>Certified Instructors</li>
+                        <li>Job Placement Support</li>
+                    </ul>
+                </div>
+                <button class="btn btn-success apply-now-btn" style="width: 100%; font-size: 1.1rem;">Interested? Apply
+                    Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- News Details Modal -->
+    <div id="newsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeNews">&times;</span>
+            <div id="newsInfo">
+                <h2 id="modalNewsTitle" style="color: var(--primary-blue); margin-bottom: 15px;">News Title</h2>
+                <div style="border-left: 4px solid var(--notice-orange); padding-left: 15px; margin-bottom: 20px;">
+                    <p id="modalNewsContent" style="color: var(--text-gray); font-size: 1.1rem; line-height: 1.8;">
+                        Full news content will appear here.
+                    </p>
+                </div>
+                <button class="btn btn-primary" id="closeNewsBtn" style="width: 100%; font-size: 1.1rem;">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admission Modal -->
+    <div id="admissionModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2
+                style="color: var(--primary-blue); margin-bottom: 20px; border-bottom: 2px solid var(--action-green); padding-bottom: 10px;">
+                Admission Application Form</h2>
+            <form id="admissionForm">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label>CNIC / B-Form</label>
+                    <input type="text" placeholder="XXXXX-XXXXXXX-X" required>
+                </div>
+                <div style="display: flex; gap: 15px;">
+                    <div class="form-group" style="flex: 1;">
+                        <label>Father's Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group" style="flex: 1;">
+                        <label>Date of Birth</label>
+                        <input type="date" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Select Trade</label>
+                    <select required>
+                        <option value="">-- Choose a Course --</option>
+                        <option>Computer Applications</option>
+                        <option>Electrician</option>
+                        <option>Machinist</option>
+                        <option>Auto Mechanic</option>
+                        <option>HVAC Technician</option>
+                        <option>Welding</option>
+                        <option>Plumbing</option>
+                        <option>Civil Surveyor</option>
+                        <option>Quantity Surveyor</option>
+                        <option>Dress Making</option>
+                        <option>Beautician</option>
+                        <option>Culinary Arts</option>
+                        <option>Mobile Repairing</option>
+                        <option>Solar Technician</option>
+                        <option>Graphic Design</option>
+                        <option>Web Development</option>
+                        <option>AutoCAD</option>
+                        <option>Refrigeration</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Mobile Number</label>
+                    <input type="tel" placeholder="03xx-xxxxxxx" required>
+                </div>
+                <button type="submit" class="btn btn-success"
+                    style="width: 100%; margin-top: 10px; font-size: 1.1rem;">Submit Application</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
